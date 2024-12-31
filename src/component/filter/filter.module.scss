@@ -1,0 +1,32 @@
+.filterPanel{
+    width: 100%;
+
+    .accordion{
+        box-shadow: none;
+        border: none;
+        padding: 0px;
+        background-color: transparent;
+
+        &::before {
+            opacity: 0;
+        }
+        .filterSilder{
+            padding: 0px;
+            color: var(--primary-color);
+        }
+
+        .ratingButtons{
+            display: flex;
+
+            button{
+                min-width: 40px;
+                border: 1px solid var(--primary-color);
+                margin: 0px 20px 0px 0px;
+                background-color: transparent;
+            }
+        }
+        .checkbox{
+            color: var(--primary-color);
+        }
+    }
+}

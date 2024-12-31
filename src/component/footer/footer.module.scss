@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--primary-color);
+    padding: 200px 0px 50px 0px;
+    margin-top: -200px;
+    
+    .footerContainer{
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+
+        a{
+            color: #474b47 !important;
+
+            &:hover{
+                color: var(--secondary-color) !important;
+            }
+        }
+    }
+    
+}

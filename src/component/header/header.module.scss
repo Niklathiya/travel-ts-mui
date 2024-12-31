@@ -1,0 +1,18 @@
+.header{
+    .headerBar{
+        background-color: var(--white);
+        box-shadow: none;
+        box-shadow: 0px 4px 16px 0px #1122110D;
+    }
+    .headerIcon{
+        &:hover{
+            background: none;
+        }
+    }
+    .headerIconRotate{
+        rotate: 90deg;
+    }
+    .profileIcon{
+        cursor: pointer;
+    }
+}
